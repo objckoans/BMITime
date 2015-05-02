@@ -20,4 +20,6 @@
 - (int)weightInKilos;
 - (void)setWeightInKilos:(int)w;
 
+- (float)bodyMassIndex;
+
 @end

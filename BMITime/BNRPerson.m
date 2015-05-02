@@ -26,4 +26,8 @@
     _weightInKilos = w;
 }
 
+- (float)bodyMassIndex {
+    return _weightInKilos / (_heightInMeters * _heightInMeters);
+}
+
 @end
